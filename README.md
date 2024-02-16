@@ -6,3 +6,4 @@
 * d5:constraint to populate unique elements in array(1D,2D,3D)
 * d6:constriant to generate pattern 9,99,999,9999...
 * d7:constraint to generate number divisible by both 4 & 10
+* d8:constraint for counting the number of ones in a variable.
