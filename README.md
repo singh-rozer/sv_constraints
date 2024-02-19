@@ -7,3 +7,4 @@
 * d6:constriant to generate pattern 9,99,999,9999...
 * d7:constraint to generate number divisible by both 4 & 10
 * d8:constraint for counting the number of ones in a variable.
+* d9:constraint for PLL: ref_clk division ratio. (a) reference clk in range 10MHZ to 100MHZ. (b) division ratio is an 8-bit number. (c) output clk = reference clk * division ratio. (d) clk out in range 100MHZ to 5GHZ.
