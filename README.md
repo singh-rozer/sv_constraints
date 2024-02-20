@@ -10,3 +10,5 @@
 * d9:constraint for PLL: ref_clk division ratio. (a) reference clk in range 10MHZ to 100MHZ. (b) division ratio is an 8-bit number. (c) output clk = reference clk * division ratio. (d) clk out in range 100MHZ to 5GHZ.
 * d10:twoDarray:constraint for generating array with pattern [100,010,001].
 * d11:twoDarray:constraint for generating array, which restricts 5 ones in a row and not more than a single one in a column.
+* d12:twoDarray:constraint for 3x3 sudoko
+* 
