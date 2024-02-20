@@ -1,12 +1,17 @@
 class check;
   
   rand bit[3:0] a [3][3];
-  
-  constraint a_val {foreach(a[i,j]) a[i][j] inside {[1:9]};}
-  constraint a_row {foreach(a[i,]) a[i].sum() with (int'(item)) == 15;}
-  constraint a_column {foreach(a[,j]) a.sum() with (int'(a[item.index][j])) == 15;}
-  //constraint a_diagonal {a.sum() with (int'(a[item.index][item.index])) == 15;}
+  rand bit[3:0] b;
+
+  //(i)
+  constraint a_val {foreach(a[i,j]) a[i][j] inside {[1:15]};}
+  constraint a_row {foreach(a[i,]) a[i].sum() with (int'(item)) == b;}
+  constraint a_column {foreach(a[,j]) a.sum() with (int'(a[item.index][j])) == b;} 
   constraint a_unique {unique{a};}
+
+  //(ii) uncomment below line for sudoku
+  //constraint a_diagonal {a.sum() with (int'(a[item.index][item.index])) == b;}
+  
    
 endclass
 
