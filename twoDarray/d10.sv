@@ -3,7 +3,7 @@ class check;
   rand bit[1:0] a [3][3];
   
   constraint a_val {foreach(a[i,j]) a[i][j] inside {0,1};}
-  constraint c1_column {foreach(a[,j]) a.sum() with (int'(a[item.index][j] == 1)) < 2;} //to restrict column to contain single '1'
+  constraint c1_column {foreach(a[,j]) a.sum() with (int'(a[item.index][j] == 1)) < 2;} //to restrict column to contain zero/single '1'
   constraint c1_diagonal {a.sum() with (int'(a[item.index][item.index])) == 3;}
 endclass
 
