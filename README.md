@@ -11,4 +11,4 @@
 * d10:twoDarray:constraint for generating array with pattern [100,010,001].
 * d11:twoDarray:constraint for generating array, which restricts 5 ones in a row and not more than a single one in a column.
 * d12:twoDarray:(i) constraint for 3x3 array such that sum of rows and columns are same and elements are unique. (ii) sudoku version of (i)
-* 
+* d13:twoDarray:constraint to generate same diagonal value in multidimensional array.
