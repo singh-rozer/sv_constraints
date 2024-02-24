@@ -13,3 +13,4 @@
 * d12:twoDarray:(i) constraint for 3x3 array such that sum of rows and columns are same and elements are unique. (ii) sudoku version of (i)
 * d13:twoDarray:constraint to generate same diagonal value in multidimensional array.
 * d14:constraint to generate an address where 9 bits are always set to 1, and sequences of 111 or 000 should not occur in a 16-bit address.
+* d15:twoDarray:constraints for the eight queens problem? two shouldn't lie in same row or column. (two shouldn't threaten each other)
