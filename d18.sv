@@ -2,9 +2,9 @@ class check;
   rand bit [99:0] val;
   rand bit [6:0] id;
   
-  constraint flag_id {id inside {[0:95]};}
+  constraint shift_pos {id inside {[0:95]};}
 
-  constraint val_v {$countones(val) == 5;}
+  constraint val_5 {$countones(val) == 5;}
   constraint val_cont {val == 'b11111 << id;}
     
 endclass
