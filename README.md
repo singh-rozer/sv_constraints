@@ -18,3 +18,4 @@
 * d17:constraint to generate a random number with only 5 bits set and consecutively set for 80% of the time.
 * d18:constraint to randomize a 100 bit var such that always and only 5 consecutive bits are 1s.
 * d19:constraint for generating leap years.
+* d20:constraint to make sure every even item in an array is even and every odd item is odd.
