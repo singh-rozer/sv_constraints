@@ -16,3 +16,4 @@
 * d15:twoDarray:constraints for the eight queens problem? two shouldn't lie in same row or column. (two shouldn't threaten each other)
 * d16:constraint to pick a ball out of 10 different colored balls and that color should not be repeated for in next 3 draws
 * d17:constraint to generate a random number with only 5 bits set and consecutively set for 80% of the time
+* d18:constraint to randomize a 100 bit var such that always and only 5 consecutive bits are 1s
