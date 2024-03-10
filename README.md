@@ -14,6 +14,7 @@
 * d13:twoDarray:constraint to generate same diagonal value in multidimensional array.
 * d14:constraint to generate an address where 9 bits are always set to 1, and sequences of 111 or 000 should not occur in a 16-bit address.
 * d15:twoDarray:constraints for the eight queens problem? two shouldn't lie in same row or column. (two shouldn't threaten each other)
-* d16:constraint to pick a ball out of 10 different colored balls and that color should not be repeated for in next 3 draws
-* d17:constraint to generate a random number with only 5 bits set and consecutively set for 80% of the time
-* d18:constraint to randomize a 100 bit var such that always and only 5 consecutive bits are 1s
+* d16:constraint to pick a ball out of 10 different colored balls and that color should not be repeated for in next 3 draws.
+* d17:constraint to generate a random number with only 5 bits set and consecutively set for 80% of the time.
+* d18:constraint to randomize a 100 bit var such that always and only 5 consecutive bits are 1s.
+* d19:constraint for generating leap years.
