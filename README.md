@@ -11,11 +11,12 @@
 * d10:twoDarray:constraint for generating array with pattern [100,010,001].
 * d11:twoDarray:constraint for generating array, which restricts 5 ones in a row and not more than a single one in a column.
 * d12:twoDarray:(i) constraint for 3x3 array such that sum of rows and columns are same and elements are unique. (ii) sudoku version of (i)
-* d13:twoDarray:constraint to generate same diagonal value in multidimensional array.
+* d13:twoDarray:constraint to generate same diagonal value in a multidimensional array.
 * d14:constraint to generate an address where 9 bits are always set to 1, and sequences of 111 or 000 should not occur in a 16-bit address.
-* d15:twoDarray:constraints for the eight queens problem? two shouldn't lie in same row or column. (two shouldn't threaten each other)
+* d15:twoDarray:constraints for the eight queens problem? two shouldn't lie in the same row or column. (two shouldn't threaten each other)
 * d16:constraint to pick a ball out of 10 different colored balls and that color should not be repeated for in next 3 draws.
 * d17:constraint to generate a random number with only 5 bits set and consecutively set for 80% of the time.
-* d18:constraint to randomize a 100 bit var such that always and only 5 consecutive bits are 1s.
+* d18:constraint to randomize a 100-bit var such that always and only 5 consecutive bits are 1s.
 * d19:constraint for generating leap years.
 * d20:constraint to make sure every even item in an array is even and every odd item is odd.
+* d21:For an 8-bit variable if the past randomization resulted in an odd value, the next randomization should be even with 75% probability else be even with 25% probability.
