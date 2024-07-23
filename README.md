@@ -21,3 +21,4 @@
 * d20:constraint to make sure every even item in an array is even and every odd item is odd.
 * d21:For an 8-bit variable if the past randomization resulted in an odd value, the next randomization should be even with 75% probability else be even with 25% probability.
 * d22:constraint to generate a n-bit value such that the number of bits set is equal to the number of bits that are zero.
+* d23:Implement randc behavior using rand
