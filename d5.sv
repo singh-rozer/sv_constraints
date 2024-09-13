@@ -33,14 +33,18 @@ class check;
   
   constraint arr_val_2 {foreach(arr2[i,j])
     foreach(arr2[a,b])
-    {(i!=a && j!=b) -> (arr2[i][j] != arr2[a][b]);}}
+      if(i==a && j==b) arr2[i][j] == arr2[a][b];
+                        else arr2[i][j] != arr2[a][b];
+                       }
   
   //3D
   rand byte unsigned arr3[2][2][2];
   
                       constraint arr_val_3 {foreach(arr3[i,j,k])
                         foreach(arr3[a,b,c])
-                          (!(i==a && j==b && k==c)) -> arr3[i][j][k] != arr3[a][b][c];}
+                          if(i==a && j==b && k==c) arr3[i][j][k] == arr3[a][b][c];
+                                            else arr3[i][j][k] != arr3[a][b][c];
+                                           }
   
 endclass
 
